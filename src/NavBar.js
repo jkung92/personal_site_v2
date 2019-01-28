@@ -12,19 +12,19 @@ class NavBar extends Component {
             Jonathan Kung
           </NavLink>
 
-          <Nav className="ml-auto" navbar>
+          <Nav className="ml-auto mr-4" navbar>
             <NavItem>
               <NavLink to="/about">About</NavLink>
             </NavItem>
           </Nav>
 
-          <Nav className="ml-auto" navbar>
+          <Nav className="ml-auto mr-4" navbar>
             <NavItem>
               <NavLink to="/projects">Projects</NavLink>
             </NavItem>
           </Nav>
 
-          <Nav className="ml-auto" navbar>
+          <Nav className="ml-auto mr-4" navbar>
             <NavItem>
               <NavLink to="/contact">Contact</NavLink>
             </NavItem>

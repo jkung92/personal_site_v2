@@ -1,16 +1,78 @@
 import React, { Component } from 'react';
+import img1 from './01.png';
+import img2 from './02.png';
+import img3 from './03.png';
+import './ProjectCard.css';
 
 class ProjectCard extends Component {
   render() {
+    const imgStyle = { width: '552px', height: '180px' };
+
     return (
-      <div>
-        <div class="card" style={{ width: '18rem' }}>
-          <img class="card-img-top" src=".../100px180/?text=Image cap" alt="" />
-          <div class="card-body">
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+      <div className="container">
+        <div className="row mt-3">
+          <div className="col-8">
+            <img
+              src={img1}
+              className="card-img-top"
+              alt="..."
+              style={imgStyle}
+            />
+          </div>
+          <div className="col-4 shadow">
+            <h2>PlayList Maker</h2>
+            <h5> Node/Express | jQuery </h5>
+            <span className="icon">
+              <a href="https://github.com/jkung92/spotify-web-api-app">
+                <i className="fab fa-github mr-3" />
+              </a>
+              <a href="https://jons-playlist-maker.herokuapp.com">
+                <i className="fas fa-external-link-alt mr-3" />
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <div className="row mt-3">
+          <div className="col-8 ">
+            <img
+              src={img2}
+              className="card-img-top"
+              alt="..."
+              style={imgStyle}
+            />
+          </div>
+          <div className="col-4 shadow">
+            <h2>Jobly </h2>
+            <h5> React | Node/Express | PostgreSQL </h5>
+            <h6 className="icon">
+              <a href="https://www.facebook.com/jon.kung">
+                <i className="fab fa-github mr-3" />
+              </a>
+              <a href="https://jobly-frontend-jk.herokuapp.com/">
+                <i className="fas fa-external-link-alt mr-3" />
+              </a>
+            </h6>
+          </div>
+        </div>
+
+        <div className="row mt-3">
+          <div className="col-8">
+            <img
+              src={img3}
+              className="card-img-top"
+              alt="..."
+              style={imgStyle}
+            />
+          </div>
+          <div className="col-4 shadow">
+            <h2>Microblog </h2>
+            <h5> React | Redux | Node/Express </h5>
+            <h5 className="icon">
+              <a href="https://www.facebook.com/jon.kung">
+                <i className="fab fa-github" />
+              </a>
+            </h5>
           </div>
         </div>
       </div>
