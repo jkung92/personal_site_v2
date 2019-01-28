@@ -30,6 +30,11 @@ class Contact extends Component {
               <i class="fab fa-github" />
             </a>
           </li>
+          <li>
+            <a href="https://angel.co/jonathan-kung-3">
+              <i class="fab fa-angellist" />
+            </a>
+          </li>
         </ul>
       </div>
     );

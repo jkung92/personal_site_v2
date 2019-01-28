@@ -4,7 +4,7 @@ import img4 from './04.jpg';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <h1> Nice to meet you! </h1>
         <img
           src={img4}
