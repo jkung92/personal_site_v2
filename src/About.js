@@ -13,10 +13,9 @@ class About extends Component {
         />
         <p>
           I’m a full stack engineer currently attending Rithm School’s ninth
-          cohort. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Mollitia unde itaque nesciunt adipisci rem. Voluptatem id placeat
-          voluptas, obcaecati beatae quos expedita inventore sed. Fuga beatae
-          officiis consequuntur perspiciatis nobis.
+          cohort. From school, I've learned that I'm a huge fan of working with
+          APIs that allow me to build amazing websites. I am actively seeking a
+          front-end engineer role, feel free to connect with me!
         </p>
       </div>
     );

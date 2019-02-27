@@ -21,17 +21,17 @@ class Contact extends Component {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/jonathan-kung-66945270/">
+            <a href="https://www.linkedin.com/in/jon-kung/">
               <i class="fab fa-linkedin" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/jkung92">
+            <a href="https://github.com/jon-kung">
               <i class="fab fa-github" />
             </a>
           </li>
           <li>
-            <a href="https://angel.co/jonathan-kung-3">
+            <a href="https://angel.co/jonathan-kung-4">
               <i class="fab fa-angellist" />
             </a>
           </li>

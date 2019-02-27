@@ -7,8 +7,6 @@ import Contact from './Contact';
 
 class Routes extends Component {
   render() {
-    // let { snacks, drinks, addSnack, addDrink } = this.props;
-
     return (
       <main>
         <Switch>
