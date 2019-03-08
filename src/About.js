@@ -4,19 +4,29 @@ import img4 from './04.jpg';
 class About extends Component {
   render() {
     return (
-      <div className="container">
-        <h1> Nice to meet you! </h1>
-        <img
-          src={img4}
-          alt=""
-          style={{ height: '250px', width: '250px', borderRadius: '50%' }}
-        />
-        <p>
-          I’m a full stack engineer currently attending Rithm School’s ninth
-          cohort. From school, I've learned that I'm a huge fan of working with
-          APIs that allow me to build amazing websites. I am actively seeking a
+      <div className="container mt-5">
+        <div className="big-font" data-aos="fade-left" data-aos-duration="1000">
+          {' '}
+          Nice to meet you!{' '}
+        </div>
+        <p className="mt-5" data-aos="fade-right" data-aos-duration="2000">
+          I’m a full stack engineer. I love working with APIs to build awesome
+          websites using modern technologies like React. I am actively seeking a
           front-end engineer role, feel free to connect with me!
         </p>
+        <img
+          className="mt-3"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          src={img4}
+          alt=""
+          style={{
+            height: '150px',
+            width: '150px',
+            borderRadius: '50%',
+            filter: 'grayscale(100%)'
+          }}
+        />
       </div>
     );
   }
