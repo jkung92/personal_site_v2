@@ -24,7 +24,7 @@ class ProjectCard extends Component {
             <h2>PlayList Maker</h2>
             <h5> Node/Express | jQuery </h5>
             <span className="icon">
-              <a href="https://github.com/jkung92/spotify-web-api-app">
+              <a href="https://github.com/jon-kung/spotify-web-api-app">
                 <i className="fab fa-github mr-3" />
               </a>
               <a href="https://jons-playlist-maker.herokuapp.com">
@@ -47,7 +47,7 @@ class ProjectCard extends Component {
             <h2>Jobly </h2>
             <h5> React | Node/Express | PostgreSQL </h5>
             <h6 className="icon">
-              <a href="https://github.com/jkung92/react-jobly">
+              <a href="https://github.com/jon-kung/react-jobly">
                 <i className="fab fa-github mr-3" />
               </a>
               <a href="https://jobly-frontend-jk.herokuapp.com/">
@@ -70,7 +70,7 @@ class ProjectCard extends Component {
             <h2>Microblog </h2>
             <h5> React | Redux | Node/Express </h5>
             <h5 className="icon">
-              <a href="https://github.com/jkung92/react-microblog">
+              <a href="https://github.com/jon-kung/react-microblog">
                 <i className="fab fa-github" />
               </a>
             </h5>
