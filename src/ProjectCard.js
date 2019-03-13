@@ -9,12 +9,12 @@ import './ProjectCard.css';
 
 class ProjectCard extends Component {
   render() {
-  return (
+    return (
       <div className="container">
         <div className="row mt-5">
-          <div className="col-sm m-2 shadow">
+          <div data-aos="fade-up" data-aos-duration="1500" className="col-sm m-2 shadow">
             <h2>PlayList Maker</h2>
-            <h5> Express | Nunjucks </h5>
+            <h5>Express | Nunjucks</h5>
             <span className="icon">
               <a href="https://github.com/jon-kung/spotify-web-api-app">
                 <i className="fab fa-github mr-3" />
@@ -25,9 +25,9 @@ class ProjectCard extends Component {
             </span>
           </div>
 
-          <div className="col-sm m-2 shadow">
+          <div data-aos="fade-up" data-aos-duration="2000" className="col-sm m-2 shadow">
             <h2>Jobly</h2>
-            <h5> React | Express | PostgreSQL </h5>
+            <h5>React | Express | Postgres</h5>
             <h6 className="icon">
               <a href="https://github.com/jon-kung/react-jobly">
                 <i className="fab fa-github mr-3" />
@@ -38,9 +38,9 @@ class ProjectCard extends Component {
             </h6>
           </div>
 
-          <div className="col-sm m-2 shadow">
-            <h2>Microblog </h2>
-            <h5> React | Redux | Express </h5>
+          <div data-aos="fade-up" data-aos-duration="2500" className="col-sm m-2 shadow">
+            <h2>Microblog</h2>
+            <h5>React | Redux | Express</h5>
             <h5 className="icon">
               <a href="https://github.com/jon-kung/react-microblog">
                 <i className="fab fa-github" />
@@ -48,9 +48,9 @@ class ProjectCard extends Component {
             </h5>
           </div>
 
-          <div className="col-sm m-2 shadow">
+          <div data-aos="fade-up" data-aos-duration="3000" className="col-sm m-2 shadow">
             <h2>HackerSnooze </h2>
-            <h5> Javascript | HTML | CSS </h5>
+            <h5>Javascript | HTML | CSS</h5>
             <h6 className="icon">
               <a href="https://github.com/jon-kung/Hacker-News-Clone">
                 <i className="fab fa-github" />
