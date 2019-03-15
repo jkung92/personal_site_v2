@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import ContactIcons from './ContactIcons';
 
 class About extends Component {
   render() {
@@ -121,6 +122,9 @@ class About extends Component {
             </p>
           </TimelineItem>
         </Timeline>
+        <div>
+          <ContactIcons></ContactIcons>
+        </div>
       </div>
     );
   }
