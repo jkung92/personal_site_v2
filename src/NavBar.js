@@ -6,8 +6,7 @@ import { Navbar, Nav, NavItem } from 'reactstrap';
 class NavBar extends Component {
   render() {
     return (
-      <div>
-        <Navbar expand="md">
+        <Navbar expand="md" sticky={'top'}>
           <NavLink exact to="/" className="navbar-brand">
             Jonathan Kung
           </NavLink>
@@ -30,7 +29,6 @@ class NavBar extends Component {
             </NavItem>
           </Nav>
         </Navbar>
-      </div>
     );
   }
 }
