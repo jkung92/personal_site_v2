@@ -76,16 +76,17 @@ class About extends Component {
               world worked and was inspired to pursue a career as a developer.
             </p>
             <p style={{ color: 'white' }}>
-              My proudest achievement here was providing a solution to an Excel Worksheet issue first
-              reported in 2015 on the Microsoft Forums. You can checkout the
-              details and my response{' '}
+              My proudest achievement here was providing a solution to an Excel
+              Worksheet issue first reported in 2015 on the Microsoft Forums.
+              You can checkout the details and my response{' '}
               <a
                 href="https://answers.microsoft.com/en-us/msoffice/forum/all/excel-skips-to-another-workbook-for-no-apparent/272ccfbf-5aca-43f4-8e8f-c55a38043a0e?page=8"
                 target={'_blank'}
               >
                 here
               </a>
-              .
+              . Currently, the thread is still active with many describing the issue
+              as completely work-stopping.
             </p>
           </TimelineItem>
           <TimelineItem
