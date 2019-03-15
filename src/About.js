@@ -75,9 +75,9 @@ class About extends Component {
               wanting to learn more about how exactly things in the software
               world worked and was inspired to pursue a career as a developer.
             </p>
-            <p style={{ color: 'white' }}>
+            <p style={{ color: 'white', fontWeight: '600' }}>
               My proudest achievement here was providing a solution to an Excel
-              Worksheet issue first reported in 2015 on the Microsoft Forums.
+              worksheet issue first reported in 2015 on the Microsoft Forums.
               You can checkout the details and my response{' '}
               <a
                 href="https://answers.microsoft.com/en-us/msoffice/forum/all/excel-skips-to-another-workbook-for-no-apparent/272ccfbf-5aca-43f4-8e8f-c55a38043a0e?page=8"
@@ -85,8 +85,8 @@ class About extends Component {
               >
                 here
               </a>
-              . Currently, the thread is still active with many describing the issue
-              as completely work-stopping.
+              . Currently, the issue mentioned in the thread is still on-going
+              with many describing the severity as completely work-stopping.
             </p>
           </TimelineItem>
           <TimelineItem
@@ -111,7 +111,7 @@ class About extends Component {
               to negotiate payments from delinquent customers. Training and
               mentoring new hires became a part of my daily routine as well.
             </p>
-            <p style={{ color: 'white' }}>
+            <p style={{ color: 'white', fontWeight: '600' }}>
               Most notably, I was ranked #1 agent among my peers (70+ reps)
               through all of Q2, and went above my role by assisting a new
               supervisor and his new hire team during onboarding.
@@ -140,7 +140,7 @@ class About extends Component {
               opportunity that taught me the importance of work ethic and
               setting goals.
             </p>
-            <p style={{ color: 'white' }}>
+            <p style={{ color: 'white', fontWeight: '600' }}>
               I was able to sell over $16,000 worth of office supplies within 4
               months.
             </p>
