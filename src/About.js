@@ -1,147 +1,128 @@
 import React, { Component } from 'react';
-import img4 from './static/04.jpg';
+import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
 class About extends Component {
   render() {
     return (
       <div className="container mt-5">
         <div className="big-font" data-aos="fade-up" data-aos-duration="1000">
-          Nice to meet you!
+          My Career Journey
         </div>
-        {/* First Row */}
-        <div
-          className="row justify-content-center"
-          data-aos="fade-up"
-          data-aos-duration="2000"
-        >
-          <div className="mt-5 med-font text-left col-4 shadow">
-            
-            I’m a full stack engineer that loves working with APIs to build
-            awesome websites using modern technologies like React. Feel free to
-            scroll down if you'd like to learn more.
-          </div>
-          <div className="col-4">
-            <img
-              className="mt-5"
-              src={img4}
-              alt=""
-              style={{
-                height: '150px',
-                width: '150px',
-                borderRadius: '10%'
-                // filter: 'grayscale(100%)'
-              }}
-            />
-          </div>
-        </div>
-        {/* End of First Row */}
-        <div className="row justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-          <div className="col-4">
-            {/* <img
-              className="mt-3"
-              src={img4}
-              alt=""
-              style={{
-                height: '150px',
-                width: '150px',
-                borderRadius: '50%',
-                filter: 'grayscale(100%)'
-              }}
-            /> */}
-          </div>
-          <div className="mt-5 med-font text-left col-4 shadow">
-            My career journey begins as a door-to-door office supply salesman,
-            selling paper and printer ink to start-ups and small businesses
-            through a sister company of Staples. I was young and looking to work
-            as soon as I could, and this was a unique learning opportunity that
-            taught me the importance of work ethic and setting goals.
-          </div>
-        </div>
-        {/* End of Second Row */}
-        <div className="row justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-          <div className="mt-5 med-font col-4 text-left shadow">
-            Shortly after, I was referred to a job at LendingClub, a peer to
-            peer lending platform. This was my first taste of the bay area
-            start-up lifestyle and I was blown away by the selection of drinks
-            and snacks in our fully stocked kitchen. In the process, I learned
-            how to negotiate payments from delinquent customers. Training and
-            mentoring new hires became a part of my daily routine as well.
-          </div>
-          <div className="col-4">
-            {/* <img
-              className="mt-5"
-              src={img4}
-              alt=""
-              style={{
-                height: '150px',
-                width: '150px',
-                // borderRadius: '50%',
-                filter: 'grayscale(100%)'
-              }}
-            /> */}
-          </div>
-        </div>
-        {/* End of Third Row */}
-        <div className="row justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-          <div className="col-4">
-            {/* <img
-              className="mt-3"
-              src={img4}
-              alt=""
-              style={{
-                height: '150px',
-                width: '150px',
-                borderRadius: '50%',
-                filter: 'grayscale(100%)'
-              }}
-            /> */}
-          </div>
-          <div className="mt-5 med-font text-left col-4 shadow">
-            My most recent gig was at Bloomberg, a software, market data, and
-            media company based in NYC. Days were spent troubleshooting software
-            and API issues. I worked closely with the engineering team, acting
-            as a middleman between our clients and developers. I soon found
-            myself wanting to learn more about how exactly things in the
-            software world worked and was inspired to pursue a career as a
-            developer.
-          </div>
-        </div>
-        {/* End of Fourth Row */}
-        <div className="row justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-          <div className="mt-5 med-font text-left col-4 shadow">
-            Recently, I've graduated from a San Francisco based coding bootcamp
-            called Rithm School. As part of the cirriculum, I was able to intern
-            at a startup called The Relish, a sports media broadcasting
-            platform, where I built core features to improve their content
-            management system. This experience has taught me that I can both
-            contribute to amazing projects and continue to grow by learning
-            something new each day.
-          </div>
-          <div className="col-4">
-            {/* <img
-              className="mt-5"
-              src={img4}
-              alt=""
-              style={{
-                height: '150px',
-                width: '150px',
-                borderRadius: '50%',
-                filter: 'grayscale(100%)'
-              }}
-            /> */}
-          </div>
-        </div>
-        {/* End of Fifth Row */}
-        <div className="row justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-          <div className="col-4" />
-          <div className="m-5 med-font text-left col-4 shadow">
-            If you made it this far, you're awesome. I'm actively seeking a
-            front-end position, feel free to contact me! Thank you for taking
-            the time to read this!
-          </div>
-        </div>
-        {/* End of Sixth Row */}
-        <div className="big-font m-5">Back to top ↑</div>
+        <Timeline lineColor={'#ddd'}>
+          <TimelineItem
+            key="001"
+            dateText="12/2013 – 4/2014"
+            dateInnerStyle={{ background: 'salmon', color: 'white' }}
+            bodyContainerStyle={{
+              background: 'rgb(1, 1, 41)',
+              opacity: 0.6,
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
+            }}
+          >
+            <h3 style={{ color: '#61b8ff' }}> Summit Solutions </h3>
+            <h4 style={{ color: '#61b8ff' }}>Lead Account Manager</h4>
+            <p style={{ color: 'white' }}>
+              My career journey begins as a door-to-door office supply salesman,
+              selling paper and printer ink to start-ups and small businesses
+              through a sister company of Staples. I was young and looking to
+              work as soon as I could, and this was a unique learning
+              opportunity that taught me the importance of work ethic and
+              setting goals.
+            </p>
+          </TimelineItem>
+          <TimelineItem
+            key="002"
+            dateText="12/2014 – 12/2016"
+            dateInnerStyle={{ background: '#e86971', color: 'white' }}
+            bodyContainerStyle={{
+              background: 'rgb(1, 1, 41)',
+              opacity: 0.6,
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
+            }}
+          >
+            <h3 style={{ color: '#61b8ff' }}> LendingClub</h3>
+            <h4 style={{ color: '#61b8ff' }}>Payment Specialist</h4>
+            <p style={{ color: 'white' }}>
+              Shortly after, I was referred to a job at LendingClub, a peer to
+              peer lending platform. This was my first taste of the bay area
+              start-up lifestyle and I was blown away by the selection of drinks
+              and snacks in our fully stocked kitchen. In the process, I learned
+              how to negotiate payments from delinquent customers. Training and
+              mentoring new hires became a part of my daily routine as well.
+            </p>
+          </TimelineItem>
+          <TimelineItem
+            key="003"
+            dateText="12/2016 – 5/2018"
+            dateInnerStyle={{ background: '#61b8ff', color: 'white' }}
+            bodyContainerStyle={{
+              background: 'rgb(1, 1, 41)',
+              opacity: 0.6,
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
+            }}
+          >
+            <h3 style={{ color: '#61b8ff' }}> Bloomberg </h3>
+            <h4 style={{ color: '#61b8ff' }}>Implementation Specialist</h4>
+            <p style={{ color: 'white' }}>
+              My most recent gig was at Bloomberg, a software, market data, and
+              media company based in NYC. Days were spent troubleshooting
+              software and API issues. I worked closely with the engineering
+              team, acting as a middleman between our clients and developers. I
+              soon found myself wanting to learn more about how exactly things
+              in the software world worked and was inspired to pursue a career
+              as a developer.
+            </p>
+          </TimelineItem>
+          <TimelineItem
+            key="004"
+            dateText="1/2019 – 2/2019"
+            dateInnerStyle={{ background: 'indianred', color: 'white' }}
+            bodyContainerStyle={{
+              background: 'rgb(1, 1, 41)',
+              opacity: 0.6,
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
+            }}
+          >
+            <h3 style={{ color: '#61b8ff' }}> The Relish</h3>
+            <h4 style={{ color: '#61b8ff' }}>Software Engineer Intern</h4>
+            <p style={{ color: 'white' }}>
+              Recently, I've graduated from a San Francisco based coding
+              bootcamp called Rithm School. As part of the cirriculum, I was
+              able to intern at a startup called The Relish, a sports media
+              broadcasting platform, where I built core features to improve
+              their content management system. This experience has taught me
+              that I can both contribute to amazing projects and continue to
+              grow by learning something new each day.
+            </p>
+          </TimelineItem>
+          <TimelineItem
+            key="005"
+            dateText="3/2019 – Today"
+            dateInnerStyle={{ background: 'lightsalmon', color: 'white' }}
+            bodyContainerStyle={{
+              background: 'rgb(1, 1, 41)',
+              opacity: 0.6,
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
+            }}
+          >
+            <h3 style={{ color: '#61b8ff' }}> Open to opportunities </h3>
+            <h4 style={{ color: '#61b8ff' }}>Front-End | Full-Stack</h4>
+            <p style={{ color: 'white' }}>
+              I'm actively seeking a front-end or full-stack position, feel free
+              to contact me! Thank you for taking the time to read this!
+            </p>
+          </TimelineItem>
+        </Timeline>
       </div>
     );
   }
