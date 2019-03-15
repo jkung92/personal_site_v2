@@ -70,13 +70,11 @@ class About extends Component {
             <h3 style={{ color: '#61b8ff' }}> Bloomberg </h3>
             <h4 style={{ color: '#61b8ff' }}>Implementation Specialist</h4>
             <p style={{ color: 'white' }}>
-              My most recent gig was at Bloomberg, a software, market data, and
-              media company based in NYC. Days were spent troubleshooting
-              software and API issues. I worked closely with the engineering
-              team, acting as a middleman between our clients and developers. I
-              soon found myself wanting to learn more about how exactly things
-              in the software world worked and was inspired to pursue a career
-              as a developer.
+              At Bloomberg, days were spent troubleshooting software and API
+              issues. I worked closely with the engineering team, acting as a
+              middleman between our clients and developers. I soon found myself
+              wanting to learn more about how exactly things in the software
+              world worked and was inspired to pursue a career as a developer.
             </p>
           </TimelineItem>
           <TimelineItem

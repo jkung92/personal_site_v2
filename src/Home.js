@@ -11,12 +11,11 @@ class Home extends Component {
           Hi!{' '}
         </div>
         <div className="big-font" data-aos="fade-in" data-aos-duration="2000">
-          {' '}
           I'm Jon.
         </div>
         <h5
-          className="justify-content-center mt-5 colored"
-          data-aos="fade-up"
+          className="justify-content-center mt-5"
+          data-aos="fade-in"
           data-aos-duration="3000"
         >
           I’m a full stack engineer that loves working with APIs to build
