@@ -19,7 +19,7 @@ class Home extends Component {
           data-aos-duration="3000"
         >
           I’m a full stack engineer that loves working with APIs to build
-          awesome websites using modern technologies like React. Please check
+          responsive and aesthetic websites using modern technologies like React. Please check
           out my about and project page!
         </h5>
         <ContactIcons />
