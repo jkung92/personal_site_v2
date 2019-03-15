@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Contact.css';
+import ContactIcons from './ContactIcons';
 
 class Contact extends Component {
   render() {
@@ -14,28 +15,7 @@ class Contact extends Component {
         </li>
 
         <h2 data-aos="fade-in" data-aos-duration="3000"> Connect with me</h2>
-        <ul>
-          <li data-aos="fade-in" data-aos-duration="3000">
-            <a href="https://www.facebook.com/jon.kung">
-              <i class="fab fa-facebook-square" />
-            </a>
-          </li>
-          <li data-aos="fade-in" data-aos-duration="3000">
-            <a href="https://www.linkedin.com/in/jon-kung/">
-              <i class="fab fa-linkedin" />
-            </a>
-          </li>
-          <li data-aos="fade-in" data-aos-duration="3000" >
-            <a href="https://github.com/jon-kung">
-              <i class="fab fa-github" />
-            </a>
-          </li>
-          <li data-aos="fade-in" data-aos-duration="3000">
-            <a href="https://angel.co/jonathan-kung-4">
-              <i class="fab fa-angellist" />
-            </a>
-          </li>
-        </ul>
+        <ContactIcons></ContactIcons>
       </div>
     );
   }
