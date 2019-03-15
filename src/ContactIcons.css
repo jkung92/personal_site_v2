@@ -1,0 +1,19 @@
+#contact-icons ul {
+  margin: 0;
+  padding: 0;
+}
+#contact-icons li {
+  display: inline-block;
+  margin: 15px;
+  list-style: none;
+}
+#contact-icons li a {
+  color: black;
+  opacity: 0.7;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+#contact-icons li a:hover {
+  color: #b9b9b9;
+}

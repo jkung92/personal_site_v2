@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import resume from './static/Resume.pdf'
+import resume from './static/Resume.pdf';
+import './ContactIcons.css';
 
 class ContactIcons extends Component {
   render() {
     return (
-      <ul>
+      <ul id="contact-icons">
         <li data-aos="fade-in" data-aos-duration="3000">
           <a href={resume} target={"_blank"}>
             <i class="fas fa-file" />
