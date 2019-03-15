@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import img4 from './static/04.jpg';
 import ContactIcons from './ContactIcons';
+import { NavLink } from 'react-router-dom';
 
 class Home extends Component {
   render() {
@@ -19,8 +20,9 @@ class Home extends Component {
           data-aos-duration="3000"
         >
           I’m a full stack engineer that loves working with APIs to build
-          responsive and aesthetic websites using modern technologies like React. Please check
-          out my about and project page!
+          responsive and aesthetic websites with Node.js using modern technologies like
+          React. Please check out my <NavLink to="/about">about</NavLink> and{' '}
+          <NavLink to="/projects">project</NavLink> page!
         </h5>
         <ContactIcons />
 
