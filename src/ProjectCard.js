@@ -12,7 +12,7 @@ class ProjectCard extends Component {
     return (
       <div className="container">
         <div className="row mt-5">
-          <div data-aos="fade-up" data-aos-duration="1500" className="col-sm m-2 shadow">
+          <div data-aos="fade-up" data-aos-duration="1500" className="col-sm m-2 shadow2">
             <h2>PlayList Maker</h2>
             <h5>Express | Nunjucks</h5>
             <span className="icon">
@@ -25,7 +25,7 @@ class ProjectCard extends Component {
             </span>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="2000" className="col-sm m-2 shadow">
+          <div data-aos="fade-up" data-aos-duration="2000" className="col-sm m-2 shadow2">
             <h2>Jobly</h2>
             <h5>React | Express | Postgres</h5>
             <h6 className="icon">
@@ -38,7 +38,7 @@ class ProjectCard extends Component {
             </h6>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="2500" className="col-sm m-2 shadow">
+          <div data-aos="fade-up" data-aos-duration="2500" className="col-sm m-2 shadow2">
             <h2>Microblog</h2>
             <h5>React | Redux | Express</h5>
             <h5 className="icon">
@@ -48,7 +48,7 @@ class ProjectCard extends Component {
             </h5>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="3000" className="col-sm m-2 shadow">
+          <div data-aos="fade-up" data-aos-duration="3000" className="col-sm m-2 shadow2">
             <h2>HackerSnooze </h2>
             <h5>Javascript | HTML | CSS</h5>
             <h6 className="icon">
