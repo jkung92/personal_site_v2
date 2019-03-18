@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import resume from './static/Resume.pdf';
+
 import './Contact.css';
 import ContactIcons from './ContactIcons';
 
@@ -13,8 +15,14 @@ class Contact extends Component {
             <i class="fa fa-envelope" />
           </a>
         </li>
+        <h1 data-aos="fade-in" data-aos-duration="3000"> View my Resume </h1>
+        <li data-aos="fade-in" data-aos-duration="3000">
+          <a href={resume} target={"_blank"}>
+            <i class="fas fa-file" />
+          </a>
+        </li>
 
-        <h2 data-aos="fade-in" data-aos-duration="3000"> Connect with me</h2>
+        <h1 data-aos="fade-in" data-aos-duration="3000"> Connect with me</h1>
         <ContactIcons></ContactIcons>
       </div>
     );
