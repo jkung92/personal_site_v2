@@ -48,9 +48,13 @@ class About extends Component {
               bootcamp called Rithm School. As part of the cirriculum, I was
               able to intern at a startup called The Relish, a sports media
               broadcasting platform, where I built core features to improve
-              their content management system. This experience has taught me
-              that I can both contribute to amazing projects and continue to
-              grow by learning something new each day.
+              their content management system.
+            </p>
+            <p style={{ color: 'white', fontWeight: '600' }}>
+              Specifically, I implemented unit tests using Jest, built data
+              visualizations with D3 to track user engagement on their app, and
+              used Algolia with Firebase to create an awesome search feature for
+              their database.
             </p>
           </TimelineItem>
 
@@ -85,8 +89,7 @@ class About extends Component {
               >
                 here
               </a>
-              . Currently, the issue mentioned in the thread is still on-going
-              with many describing the severity as completely work-stopping.
+              .
             </p>
           </TimelineItem>
           <TimelineItem
@@ -142,7 +145,7 @@ class About extends Component {
             </p>
             <p style={{ color: 'white', fontWeight: '600' }}>
               I was able to sell over $16,000 worth of office supplies within 4
-              months.
+              months. These sales were all done in person.
             </p>
           </TimelineItem>
         </Timeline>
