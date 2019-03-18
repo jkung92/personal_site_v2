@@ -16,26 +16,32 @@ class Home extends Component {
         </div>
         <h5
           className="justify-content-center mt-5"
-          data-aos="fade-in"
+          data-aos="fade-up"
           data-aos-duration="3000"
+          style={{fontWeight: '540'}}
         >
-          I’m a full stack engineer that loves working with APIs to build
-          responsive and aesthetic websites with Node.js using modern technologies like
-          React. Please check out my <NavLink to="/about">about</NavLink> and{' '}
+          <i class="fas fa-layer-group" /> Full-stack engineer that loves
+          working with APIs to build responsive,{' '}
+           user-friendly websites using modern
+          technologies like {' '}
+          <i class="fab fa-react" /> React and <i class="fab fa-node-js" />{' '}
+          Node.js! Please check out my <NavLink to="/about">about</NavLink> and{' '}
           <NavLink to="/projects">project</NavLink> page!
         </h5>
-        <ContactIcons />
-
         <img
+          data-aos="fade-in"
+          data-aos-duration="3000"
           className="mt-5"
           src={img4}
           alt=""
           style={{
-            height: '150px',
-            width: '150px',
-            borderRadius: '50%'
+            height: '130px',
+            width: '130px',
+            borderRadius: '50%',
+            // filter: 'grayscale(100%)'
           }}
         />
+        <ContactIcons />
       </div>
     );
   }
