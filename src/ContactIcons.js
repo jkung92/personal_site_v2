@@ -4,7 +4,7 @@ import './ContactIcons.css';
 class ContactIcons extends Component {
   render() {
     return (
-      <ul id="contact-icons">
+      <ul id="contact-icons" className="mb-5">
         <li data-aos="fade-in" data-aos-duration="3000">
           <a href="https://www.linkedin.com/in/jon-kung/" target={"_blank"}>
             <i class="fab fa-linkedin" />

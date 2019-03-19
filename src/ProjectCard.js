@@ -114,7 +114,7 @@ class ProjectCard extends Component {
 
   render() {
     return (
-      <div className="container mt-5">
+      <div className="container mt-5 mb-5">
         <div className="big-font" data-aos="fade-up" data-aos-duration="1000">
           Projects
         </div>
