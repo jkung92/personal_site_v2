@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-// import img1 from './static/01.png';
-// import img2 from './static/02.png';
-// import img3 from './static/03.png';
-// import img5 from './static/05.png';
 import relish_screens from './static/relish.gif';
 import './ProjectCard.css';
 
 // Refactoring needed, pass down card info as props
-// TODO: Create a relish screenshot comp
 
 class ProjectCard extends Component {
   constructor(props) {
