@@ -137,10 +137,9 @@ class ProjectCard extends Component {
               this.renderFirstCard()
             ) : (
               <p data-aos="fade-in" data-aos-duration="2500">
-                Playlist Maker is the first side-project I built on my own
-                during bootcamp! I love music and knew I wanted to use Spotify's
-                API for this project. Please checkout the GitHub link for more
-                details.
+                Playlist Maker is the first side-project I built out
+                of my love for music! Please checkout the GitHub
+                link for more details.
               </p>
             )}
           </div>
@@ -178,8 +177,9 @@ class ProjectCard extends Component {
               this.renderThirdCard()
             ) : (
               <p data-aos="fade-in" data-aos-duration="2500">
-                The Relish is a sports media start-up that I interned at. I was able to implement search
-                functionality, data visualization, and unit tests using Jest.
+                The Relish is a sports media start-up that I interned at. I was
+                able to implement search functionality, data visualization, and
+                unit tests using Jest.
               </p>
             )}
           </div>
