@@ -17,7 +17,7 @@ class Home extends Component {
         </div>
         <h5
           className="justify-content-center mt-5"
-          data-aos="fade-up"
+          data-aos="fade-in"
           data-aos-duration="3000"
           style={{ fontWeight: '540' }}
         >
